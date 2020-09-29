@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		474EEBB8219234D300EB8C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBB7219234D300EB8C0A /* AppDelegate.swift */; };
-		474EEBBA219234D300EB8C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBB9219234D300EB8C0A /* ViewController.swift */; };
 		474EEBBD219234D300EB8C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474EEBBB219234D300EB8C0A /* Main.storyboard */; };
 		474EEBC0219234D300EB8C0A /* Tinder_Grill_Profile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBBE219234D300EB8C0A /* Tinder_Grill_Profile.xcdatamodeld */; };
 		474EEBC2219234D700EB8C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474EEBC1219234D700EB8C0A /* Assets.xcassets */; };
 		474EEBC5219234D700EB8C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474EEBC3219234D700EB8C0A /* LaunchScreen.storyboard */; };
 		474EEBD0219234D700EB8C0A /* Tinder_Grill_ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBCF219234D700EB8C0A /* Tinder_Grill_ProfileTests.swift */; };
 		474EEBDB219234D700EB8C0A /* Tinder_Grill_ProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBDA219234D700EB8C0A /* Tinder_Grill_ProfileUITests.swift */; };
+		474EEBE92192350500EB8C0A /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474EEBE82192350500EB8C0A /* Header.xib */; };
+		474EEBEB2192451F00EB8C0A /* ProfileCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBEA2192451F00EB8C0A /* ProfileCollectionView.swift */; };
+		474EEBED21924A8D00EB8C0A /* TinderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EEBEC21924A8D00EB8C0A /* TinderImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		474EEBB4219234D300EB8C0A /* Tinder Grill Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder Grill Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474EEBB7219234D300EB8C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		474EEBB9219234D300EB8C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		474EEBBC219234D300EB8C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474EEBBF219234D300EB8C0A /* Tinder_Grill_Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinder_Grill_Profile.xcdatamodel; sourceTree = "<group>"; };
 		474EEBC1219234D700EB8C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		474EEBD6219234D700EB8C0A /* Tinder Grill ProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder Grill ProfileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474EEBDA219234D700EB8C0A /* Tinder_Grill_ProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_Grill_ProfileUITests.swift; sourceTree = "<group>"; };
 		474EEBDC219234D700EB8C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474EEBE82192350500EB8C0A /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		474EEBEA2192451F00EB8C0A /* ProfileCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionView.swift; sourceTree = "<group>"; };
+		474EEBEC21924A8D00EB8C0A /* TinderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				474EEBB7219234D300EB8C0A /* AppDelegate.swift */,
-				474EEBB9219234D300EB8C0A /* ViewController.swift */,
+				474EEBEA2192451F00EB8C0A /* ProfileCollectionView.swift */,
+				474EEBEC21924A8D00EB8C0A /* TinderImageView.swift */,
+				474EEBE82192350500EB8C0A /* Header.xib */,
 				474EEBBB219234D300EB8C0A /* Main.storyboard */,
 				474EEBC1219234D700EB8C0A /* Assets.xcassets */,
 				474EEBC3219234D700EB8C0A /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474EEBE92192350500EB8C0A /* Header.xib in Resources */,
 				474EEBC5219234D700EB8C0A /* LaunchScreen.storyboard in Resources */,
 				474EEBC2219234D700EB8C0A /* Assets.xcassets in Resources */,
 				474EEBBD219234D300EB8C0A /* Main.storyboard in Resources */,
@@ -259,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474EEBED21924A8D00EB8C0A /* TinderImageView.swift in Sources */,
+				474EEBEB2192451F00EB8C0A /* ProfileCollectionView.swift in Sources */,
 				474EEBC0219234D300EB8C0A /* Tinder_Grill_Profile.xcdatamodeld in Sources */,
-				474EEBBA219234D300EB8C0A /* ViewController.swift in Sources */,
 				474EEBB8219234D300EB8C0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
